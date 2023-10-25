@@ -1,0 +1,133 @@
+<h3>{{ section.settings.heading }}</h3>
+<p>{{ section.settings.description }}</p>
+<div>
+  {% for media in product.media %}
+    {% if media.media_type == 'video' %}
+      {{ media | video_tag: image_size: '400x' }}
+    {% endif %}
+  {% endfor %}
+
+  <template>
+    {%- if section.settings.video.type == 'youtube' -%}
+      <iframe
+        src="https://www.youtube.com/embed/{{ section.settings.video_url.id }}?enablejsapi=1"
+        class="js-youtube"
+        allow="autoplay; encrypted-media"
+        allowfullscreen
+        title="{{ section.settings.description | escape }}"></iframe>
+    {%- else -%}
+      <iframe
+        src="https://player.vimeo.com/video/{{ section.settings.video_url.id }}"
+        class="js-vimeo"
+        allow="autoplay; encrypted-media"
+        allowfullscreen
+        title="{{ section.settings.description | escape }}"></iframe>
+    {%- endif -%}
+  </template>
+</div>
+
+<div>
+  {% for block in section.blocks %}
+    <img src="{{block.settings.image|img_url:'master'}}" />
+  {% endfor %}
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "icons with text above",
+    "settings": [
+      {
+        "type": "text",
+        "label": "your headline for the section",
+        "id": "heading"
+      },
+      {
+        "type": "richtext",
+        "label": "your description",
+        "id": "description"
+      },
+      {
+        "type": "checkbox",
+        "label": "Show announcement",
+        "id": "show_announcement",
+        "default": true
+      },
+      {
+        "type": "range",
+        "id": "font_size",
+        "min": 12,
+        "max": 24,
+        "step": 1,
+        "unit": "px",
+        "label": "Font size",
+        "default": 16
+      }, {
+        "type": "select",
+        "id": "vertical_alignment",
+        "label": "Vertical alignment",
+        "options": [
+          {
+            "value": "top",
+            "label": "Top"
+          }, {
+            "value": "middle",
+            "label": "Middle"
+          }, {
+            "value": "bottom",
+            "label": "Bottom"
+          }
+        ],
+        "default": "middle"
+      }, {
+
+        "type": "color",
+        "id": "body_text",
+        "label": "Body text",
+        "default": "#000000"
+      }, {
+        "type": "color_background",
+        "id": "background",
+        "label": "Background",
+        "default": "linear-gradient(#ffffff, #000000)"
+      }, {
+        "type": "html",
+        "id": "video_embed",
+        "label": "Video embed"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "image block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "label": "your image",
+            "id": "image"
+          }
+        ]
+      }, {
+        "type": "video",
+        "name": "video",
+        "settings": [
+          {
+            "type": "html",
+            "id": "video",
+            "label": "Video embed"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "category": "image",
+        "name": "icons with text"
+      }, {
+        "category": "video",
+        "name": "video"
+      }
+    ]
+  }
+{% endschema %}

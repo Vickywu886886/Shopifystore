@@ -1,0 +1,421 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "DISCOVER BlOOSOM & GLOW",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Set a romantic mood for a special occasion or just add a touch of luxury to your everyday life",
+            "text_style": "subtitle"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/tea-light-on-white-table.jpg",
+        "image_link": "",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "hero_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "DISCOVER BlOOSOM & GLOW",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Set a romantic mood for a special occasion or just add a touch of luxury to your everyday life",
+            "text_style": "subtitle"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+      }
+    },
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/mauve-candle-on-white-table.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 52
+      }
+    },
+    "6128bec7-876d-4b71-9a27-64ee54a74b1c": {
+      "type": "collection-slider",
+      "settings": {
+        "title": "Popular Products",
+        "collection": "exotic-shorthair",
+        "product_count": 10
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "product",
+        "collection-1"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "86c2751f-9092-4779-95fb-61b4dbb3fd96": {
+      "type": "custom-slider",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/tea-light-on-white-table.jpg",
+        "image_2": "shopify:\/\/shop_images\/peach-roses-on-table.jpg",
+        "image_link": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "85874b8d-93af-4e5e-8fa3-7578ac7e9a82": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16680068382955__85874b8d-93af-4e5e-8fa3-7578ac7e9a82-16790633299ad52de9-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does the shipping take?",
+            "icon": "leaf",
+            "row_content": "<p>It take 1-2 days for shipping<\/p>",
+            "page": ""
+          }
+        },
+        "template--16680068382955__85874b8d-93af-4e5e-8fa3-7578ac7e9a82-16790633299ad52de9-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I ask for refund?",
+            "icon": "return",
+            "row_content": "<p>you can ask for refund by contact 000000<\/p>",
+            "page": ""
+          }
+        },
+        "template--16680068382955__85874b8d-93af-4e5e-8fa3-7578ac7e9a82-16790633299ad52de9-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I book an appointment?",
+            "icon": "heart",
+            "row_content": "<p>You can book an appoinappointmen through xxxxxx<\/p>",
+            "page": ""
+          }
+        },
+        "template--16680068382955__85874b8d-93af-4e5e-8fa3-7578ac7e9a82-16790633299ad52de9-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I know my scent?",
+            "icon": "perfume",
+            "row_content": "<p>You can know your scent by ...<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16680068382955__85874b8d-93af-4e5e-8fa3-7578ac7e9a82-16790633299ad52de9-0",
+        "template--16680068382955__85874b8d-93af-4e5e-8fa3-7578ac7e9a82-16790633299ad52de9-1",
+        "template--16680068382955__85874b8d-93af-4e5e-8fa3-7578ac7e9a82-16790633299ad52de9-2",
+        "template--16680068382955__85874b8d-93af-4e5e-8fa3-7578ac7e9a82-16790633299ad52de9-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "fd8f4734-505d-4df4-978d-9c7513c3895e": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8e239f84-fbf6-4598-ac77-a5d72473962e": {
+      "type": "newsletter",
+      "blocks": {
+        "template--16680068382955__8e239f84-fbf6-4598-ac77-a5d72473962e-1679063935ce480df7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--16680068382955__8e239f84-fbf6-4598-ac77-a5d72473962e-1679063935ce480df7-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--16680068382955__8e239f84-fbf6-4598-ac77-a5d72473962e-1679063935ce480df7-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16680068382955__8e239f84-fbf6-4598-ac77-a5d72473962e-1679063935ce480df7-0",
+        "template--16680068382955__8e239f84-fbf6-4598-ac77-a5d72473962e-1679063935ce480df7-1",
+        "template--16680068382955__8e239f84-fbf6-4598-ac77-a5d72473962e-1679063935ce480df7-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1679063941530cf7b9": {
+      "type": "apps",
+      "blocks": {
+        "04213808-5498-47d5-98db-7206f083d67b": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": ""
+          }
+        }
+      },
+      "block_order": [
+        "04213808-5498-47d5-98db-7206f083d67b"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "hero_banner",
+    "video",
+    "rich_text",
+    "6128bec7-876d-4b71-9a27-64ee54a74b1c",
+    "featured_collection",
+    "collage",
+    "multicolumn",
+    "86c2751f-9092-4779-95fb-61b4dbb3fd96",
+    "85874b8d-93af-4e5e-8fa3-7578ac7e9a82",
+    "fd8f4734-505d-4df4-978d-9c7513c3895e",
+    "8e239f84-fbf6-4598-ac77-a5d72473962e",
+    "1679063941530cf7b9"
+  ]
+}
